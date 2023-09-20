@@ -1,0 +1,4 @@
+[default]
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost/projeto_flask'
+TITLE = "ProjetoFlask"
+SECRET_KEY = "123456"

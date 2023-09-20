@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+    <h1> Nome User: {{ user.username }}</h1>
+    
+    <div class="jumbotron">
+        <h2>E-mail User: {{ user.email }}</h2>
+        <p>
+            Phone User: {{ user.phone }}
+        </p>
+    </div>
+</div>
+
+{% endblock %}
