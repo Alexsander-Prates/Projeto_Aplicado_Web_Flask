@@ -1,13 +1,17 @@
 from flask import abort, render_template
 from projetoflask.ext.database import User
 
+
+
+
+ #verificar o erro de retorno do users...       
+
 def init_app(app):
     @app.route("/")
     def index():
         users = User.query.all()
         print(users)
         return render_template("index.html", users=users)
-
 
     @app.route("/user/<user_id>")
     def user(user_id):

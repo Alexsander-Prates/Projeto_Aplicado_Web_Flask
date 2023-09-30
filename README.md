@@ -23,3 +23,6 @@ pip install Flask-SQLAlchemy
 
 # Instalar RESful 
 pip install Flask-RESTful
+
+# Instalar Flask Login
+pip install flask-login

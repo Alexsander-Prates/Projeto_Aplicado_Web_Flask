@@ -5,6 +5,7 @@ from projetoflask.ext import database
 from projetoflask.ext import auth
 from projetoflask.ext import admin
 from projetoflask.ext import commands
+from projetoflask.ext import login
 
 from projetoflask.blueprints import views
 from projetoflask.blueprints import restapi
@@ -20,4 +21,5 @@ auth.init_app(app)
 admin.init_app(app)
 commands.init_app(app)
 views.init_app(app)
+login.init_app(app)
 restapi.init_app(app)

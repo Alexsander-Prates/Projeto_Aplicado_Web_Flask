@@ -19,3 +19,15 @@ def save_user(user):
 def delete_user(user):
     db.session.delete(user)
     db.session.commit()
+
+def save_cpf_age(card):
+    db.session.add(card)
+    db.session.commit()
+
+def save_adress(address):
+    db.session.add(address)
+    db.session.commit()
+
+def save_carteira_user(carteira_user):
+    db.session.add(carteira_user)
+    db.session.commit()
